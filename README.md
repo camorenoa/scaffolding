@@ -1,4 +1,4 @@
-# Sapient web
+# Scaffolding web
 ### Setup environment
 You need to install node and npm [node.js]
 
@@ -9,9 +9,9 @@ Install gulp globaly
 $ npm install -g gulp
 ```
 
-Clone the repo and then go to Sapient web folder
+Clone the repo and then go to Scaffolding web folder
 ```sh
-$ cd sapient-web
+$ cd scaffolding
 ```
 
 Install the packages
