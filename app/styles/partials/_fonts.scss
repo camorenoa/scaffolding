@@ -1,0 +1,13 @@
+@mixin font($name, $path) {
+  @font-face {
+    font-family: $name;
+    font-style: normal;
+    font-weight: normal;
+    src:  url('../assets/fonts/#{$path}.eot'),
+          url('../assets/fonts/#{$path}.woff') format('woff'), 
+          url('../assets/fonts/#{$path}.ttf') format('truetype'),
+          url('../assets/fonts/#{$path}.svg') format('svg');
+  }
+}
+
+//@include font('BentonSans-Regular','BentonSans-Regular');

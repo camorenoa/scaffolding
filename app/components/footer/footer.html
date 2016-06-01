@@ -1,0 +1,19 @@
+<footer>
+	<div class="links-section">
+		<div class="container">
+			<ul class="list-inline">
+				<li ng-repeat="link in vm.data.linkSection">
+					<a href="{{link.linkURL}}">{{link.linkName}}</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container">
+			<div class="clearfix">
+				<div class="pull-left">2016 Sapient. All Rights Reserved. <a href="{{vm.data.copyrightSection.linkURL}}">{{vm.data.copyrightSection.linkName}}.</a></div>
+				<div class="pull-right text-right">Need help? <a href="{{vm.data.helpSection.linkURL}}">{{vm.data.helpSection.linkName}}</a></div>
+			</div>
+		</div>
+	</div>
+</footer>

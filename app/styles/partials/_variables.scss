@@ -1,0 +1,48 @@
+// Variables
+
+// Colors
+$black:					 		#000;
+$light-black:			 		#1e211e;
+$gray:              	 		#535353;
+$light-gray:			 		#948a8b;
+$darken-white:			 		#e7e7e7;
+$white:					 		#fff;
+$blue:					 		#1b355e;
+$light-blue:			 		#34a1cf;
+$sky-blue:				 		#7ac8ea;
+$light-steel-blue:				#5d6f8b;
+$red:					 		#e74c3c;
+$green:					 		#2ecc71;
+$yellow: 				 		#f1c40f;
+
+//Scafolding
+$font-size-base:		 		14px;
+$line-height-base:		 		1.42;
+$line-height-computed:   		$line-height-base*2;
+$text-color:			 		$light-black;
+$body-bg: 				 		$white;
+$link-color:			 		$light-blue;
+$link-hover-color:		 		darken($light-blue, 15%);
+$container-width:		 		1170px;
+$heading-font-family:	 		"MercuryDisplay-Bold";
+
+//Header
+$top-bar-bg:			 		$light-black;
+$navbar-bg:				 		$white;
+$main-menu-color:		 		#A9A9A6;
+$menu-font-family:	 	 		"BentonSans-Bold";
+
+
+//Form elements
+$input-color:			 		$text-color;
+$input-bg:				 		$white;
+$input-border:			 		#eee;
+$input-bg-disabled:		 		#eee;
+
+//Tables
+$table-bg:				 		$white;
+$table-cell-padding:     		10px;
+$table-border-color:     		#d7d7d8;
+$thead-bg:				 		$sky-blue;
+$thead-color:			 		$white;
+

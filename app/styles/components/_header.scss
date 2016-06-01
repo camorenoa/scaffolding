@@ -1,0 +1,148 @@
+.top-bar {
+  font-size: 12px;
+  font-weight: lighter;
+  background: $top-bar-bg;
+  color: $white;
+
+  .user {
+  	display: block;
+  	float: left;
+    margin-top: 5px;
+  }
+
+  .logout {
+    cursor: pointer;
+  }
+
+  .notification {
+    position: relative;
+    display: inline-block;
+  	height: 20px;
+  	width: 20px;
+  	margin-top: 10px;
+  	margin-left: 5px;
+
+    .notification-bell {
+      width: 25px;
+      height: 25px;
+      fill: $white;
+    }
+
+  	.badge {
+      position: absolute;
+      top: -5px;
+      right: -10px;
+  		display: inline-block;
+      padding: 4px 5px 1px;
+      border-radius: 1px;
+  		font-size: 10px;
+  		font-style: normal;
+      background: $red;
+      color: $white;
+  	}
+  }
+
+  .user-nav {
+    margin: 0;
+
+  	&>li {
+      position: relative;
+      display: block;
+  	  float: left;
+
+    	&>a {
+    		position: relative;
+    		display: block;
+    		padding: 15px;
+    		border-left: 1px solid $white;
+        font-weight: 500;
+    		color: $white;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          background: lighten($light-black, 5%);
+        }
+
+        .lock {
+          width: 18px;
+          height: 18px;
+          vertical-align: bottom;
+          fill: $white;
+        }
+  	  }
+
+  	  &:last-of-type>a {
+  	    border-right: 1px solid $white;
+      }
+    }
+  }
+}
+
+.navbar {
+  height: 100px;
+  background: $navbar-bg;
+  @include box-shadow(0px 2px 20px 0px rgba(0,0,0,0.5));
+
+  .logo {
+    display: inline-block;
+  	height: 100px;
+    margin-right: 20px;
+
+    img {
+      padding: 28px 0;
+    }    
+  }
+
+  .main-menu {
+  	display: inline-block;
+  	margin: 0;
+    padding: 0;
+	  -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+
+  	&>li {
+      position: relative;
+      display: block;
+  	  float: left;
+
+  	  &>a {
+    		position: relative;
+    		display: block;
+    		margin-left: 20px;
+    		margin-right: 20px;
+        font-family: $menu-font-family;
+        font-weight: 500;
+        line-height: 96px;
+    		text-transform: uppercase;
+        color: $main-menu-color;
+
+    		&.active,
+    		&:hover,
+    		&:focus {
+    			color: $black;
+          text-decoration: none;
+    			border-bottom: 4px solid $blue;
+          cursor: pointer;
+    		}
+
+        &.search {
+          svg {
+            width: 24px;
+            height: 24px;
+            fill: $main-menu-color;
+            vertical-align: middle;
+          }
+
+          &:hover svg,
+          &:focus svg {
+            fill: $black;
+          }
+        } 
+	    }
+  	}
+  }
+}

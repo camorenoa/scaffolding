@@ -1,0 +1,17 @@
+<div class="login-content"></div>
+<form class="modal-login">
+	<h1 class="heading">Login to your account:</h1>
+	<label>Email address</label>
+	<div class="form-group" ng-class="{ 'has-error': vm.errorMessage.message }">
+		<input ng-model="vm.data.email" name="email" type="email" class="form-control" required="required" />
+	</div>
+	<label>Password</label>
+	<div class="form-group" ng-class="{ 'has-error': vm.errorMessage.message }">
+		<input ng-model="vm.data.password" name="password" type="password" class="form-control" required="required" />
+	</div>
+	<div ng-messages="vm.errorMessage.message" ng-class="{'alert alert-danger': vm.errorMessage.message}" role="alert">
+	  <div ng-message="message">{{vm.errorMessage.message}}</div>
+	</div>
+	<button type="submit" class="btn btn-primary" ng-click="vm.signIn()">Login</button>
+</form>
+<div class="backdrop"></div>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html ng-app="sapient">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="/styles/vendor.min.css">
+    <link rel="stylesheet" href="/styles/style.min.css">
+    <title>Sapient</title>
+    <base href="/"></base>
+  </head>
+  <body>
+    
+    <header ui-view="header"></header>
+    <main ui-view="content" class="content"></main>
+    <footer ui-view="footer"></footer>
+
+    <script src="/scripts/vendor/angular.js"></script>
+    <script src="/scripts/vendor/angular-sanitize.js"></script>
+    <script src="/scripts/vendor/angular-ui-router.js"></script>
+    <script src="/scripts/vendor/angular-resource.js"></script>
+    <script src="/scripts/vendor/ng-csv.min.js"></script>
+    <script src="/scripts/main.js"></script>
+
+  </body>
+</html>

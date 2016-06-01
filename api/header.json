@@ -1,0 +1,34 @@
+{
+  "firstMenu":[{
+    "name": "Help",
+    "sub" : null
+  },{
+    "name": "Sapient sites",
+    "sub": [{
+      "name" : "example"
+    }]
+  }],
+  "secondMenu": [{
+    "name": "Portfolios",
+    "link": "portfolios",
+    "sub" : null  
+  }, {
+    "name": "Documents",
+    "link": "#",
+    "sub" : null  
+  },{
+    "name": "Money movement",
+    "link": "#",
+    "sub" : null  
+  },
+  {
+    "name": "Insight",
+    "link": "#",
+    "sub" : null  
+  },
+  {
+  "name": "Team",
+  "link": "#",
+  "sub" : null  
+  }]
+}

@@ -1,0 +1,7 @@
+/node_modules
+/public
+/build
+npm-debug.log
+
+# Ignore Mac DS_Store files
+**/.DS_Store

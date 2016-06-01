@@ -1,0 +1,27 @@
+footer {
+  font-family: $menu-font-family;
+  font-size: 12px;
+
+  .links-section,
+  .copyright { 
+  	padding: 24px 0; 
+  }
+
+  .links-section { 
+    background: #f7f7f8; 
+
+    .list-inline {
+      margin-bottom: 0;
+    }
+  }
+
+  a { 
+    color: $link-color; 
+  }
+
+  .copyright {
+  	background: $darken-white;
+  	color: #7c7c7c;
+  }
+
+}

@@ -1,0 +1,31 @@
+{
+  "linkSection":[
+    {
+      "linkName": "Sapient",
+      "linkURL": "#"
+    },
+    {
+      "linkName": "Disclaimer",
+      "linkURL": "#"
+    },
+    {
+      "linkName": "Privacy and Cookies",
+      "linkURL": "#"
+    },
+    {
+      "linkName": "Terms of Use",
+      "linkURL": "#"
+    }
+  ],
+  "copyrightSection":
+    {
+      "linkName": "Important Disclosures",
+      "linkURL": "#"
+    },
+  "helpSection":
+    {
+      "linkName": "Contact Us",
+      "linkURL": "#"
+    }
+  
+}

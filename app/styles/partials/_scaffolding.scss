@@ -1,0 +1,161 @@
+// Scaffolding
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: 'BentonSans-Regular';
+  font-size: $font-size-base;
+  font-style: normal;
+  font-weight: normal;
+  line-height: $line-height-base;
+  color: $text-color;
+  overflow-x: hidden;
+  background-color: $body-bg;
+  background: url(../assets/images/background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+th {
+  text-align: inherit;
+}
+
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+}
+
+.container {
+  width: 1170px;
+}
+
+.text-primary {
+  color: $link-color;
+}
+
+.heading {
+  height: 55px;
+  margin: 35px 0 10px;
+  font-family: $heading-font-family;
+  font-size: 54px;
+  color: #362a15;
+  line-height: 90px;
+}
+
+.sub-heading {
+  height: 30px;
+  margin: 10px 0 30px;
+  font-family: $heading-font-family;
+  font-size: 24px;
+  line-height: 45px;
+  color: $light-gray;
+}
+
+.nav-tabs {
+  margin: 0;
+  padding: 0;
+
+  &>li {
+    display: block;
+    float: left;
+
+    &>a {
+      display: block;
+      padding: 12px 15px 8px;
+      margin-left: -1px;
+      margin-right: 0;
+      background: transparent;
+      color: $light-gray;
+      border: 1px solid $light-gray;
+      border-bottom: 0;
+      border-radius: 0;
+
+      &.market::before {
+        content: "";
+        display: inline-block;
+        height: 14px;
+        width: 20px;
+        margin-right: 5px;
+        vertical-align: baseline;
+        background: url(../assets/images/market-value.png) no-repeat center center / 100% 100%;
+        background-size: 100%;
+      }
+
+      &.performance::before {
+        content: "";
+        display: inline-block;
+        height: 14px;
+        width: 20px;
+        margin-right: 5px;
+        vertical-align: baseline;
+        background: url(../assets/images/performance.png) no-repeat center center / 100% 100%;
+        background-size: 100%;
+      }
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        border: 1px solid $light-gray;
+        border-bottom: 0;
+      }
+
+      &.active {
+        font-family: "BentonSans-Bold";
+        background: $blue;
+        border-color: $blue;
+        color: $white;
+        text-decoration: none;
+
+        &.market::before {
+          background: url(../assets/images/market-value-active.png) no-repeat center center / 100% 100%;
+        }
+
+        &.performance::before {
+          background: url(../assets/images/performance-active.png) no-repeat center center / 100% 100%;
+        }
+      }
+    }
+
+    &:first-of-type > a {
+      margin-left: 0;
+    }
+  }
+}
+
+.arrow-down {
+  width: 14px;
+  height: 14px;
+  fill: $white;
+  vertical-align: middle;
+}
+
+.indent {
+  margin-left: 20px;
+}
+
+.indent-x2 {
+  margin-left: 40px;
+}
+
+.indent-x3 {
+  margin-left: 60px;
+}
+
+.icon-sort {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../assets/images/sort-icon.png) no-repeat center 1px;
+}
