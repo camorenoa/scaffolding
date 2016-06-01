@@ -24,12 +24,6 @@ Run the front and api in dev version
 $ gulp
 ```
 
-### Credentials
-```sh
-$ Email address: admin@prodigious.com
-$ Password: admin
-```
-
 ### Testing
 Run the following command
 ```sh
